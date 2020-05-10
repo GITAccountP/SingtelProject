@@ -28,6 +28,21 @@ public class Solution {
 		myRooster.fly();
 		myRooster.sing();
 		myRooster.swim();
+		Parrot myParrot = new Parrot();
+		System.out.println("*********Parrot*********");
+		myParrot.parrotLivesWith(new Duck());
+		myParrot.sing();
+		myParrot.swim();
+		Parrot myParrotWithCat = new Parrot();
+		System.out.println("*********Parrot With Cat*********");
+		myParrotWithCat.parrotLivesWith(new Cat());
+		myParrotWithCat.sing();
+		myParrotWithCat.swim();
+		Parrot myParrotWithDog = new Parrot();
+		System.out.println("*********Parrot With Dog*********");
+		myParrotWithDog.parrotLivesWith(new Dog());
+		myParrotWithDog.sing();
+		myParrotWithDog.swim();
 	}
 
 }

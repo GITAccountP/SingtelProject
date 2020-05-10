@@ -1,9 +1,9 @@
 package com.org.singtel;
 
 interface Animal {
-	public void fly();
-	public void sing();
-	public void walk();
-	public void swim();
+	public String fly();
+	public String sing();
+	public String walk();
+	public String swim();
 
 }

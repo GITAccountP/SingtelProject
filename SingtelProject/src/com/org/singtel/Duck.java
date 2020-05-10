@@ -2,12 +2,16 @@ package com.org.singtel;
 
 public class Duck extends Bird{
 	@Override
-	public void sing() {
-		System.out.println("Quack, Quack");
+	public String sing() {
+		String res = "Quack, Quack";
+		System.out.println(res);
+		return res;
 	}
 
 	@Override
-	public void swim() {
-		System.out.println("I can swim");
+	public String swim() {
+		String res = "I can swim";
+		System.out.println(res);
+		return res;
 	}
 }

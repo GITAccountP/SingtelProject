@@ -1,10 +1,12 @@
 package com.org.singtel;
 
-public class Rooster extends Chicken{
+public class Cat extends AnimalImpl{
+
 	@Override
 	public String sing() {
-		String res = "\"Cock-a-doodle-doo\"";
+		String res = "Meow";
 		System.out.println(res);
 		return res;
 	}
+
 }

@@ -2,13 +2,17 @@ package com.org.singtel;
 
 public class Chicken extends Bird{
 	@Override
-	public void sing() {
-		System.out.println("Cluck, Cluck");
+	public String sing() {
+		String res = "Cluck, Cluck";
+		System.out.println(res);
+		return res;
 	}
 	
 	@Override
-	public void fly() {
-		System.out.println("I can not fly");
+	public String fly() {
+		String res = "I can not fly";
+		System.out.println(res);
+		return res;
 	}
 
 }
