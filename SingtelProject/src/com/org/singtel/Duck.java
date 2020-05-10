@@ -6,4 +6,8 @@ public class Duck extends Bird{
 		System.out.println("Quack, Quack");
 	}
 
+	@Override
+	public void swim() {
+		System.out.println("I can swim");
+	}
 }
