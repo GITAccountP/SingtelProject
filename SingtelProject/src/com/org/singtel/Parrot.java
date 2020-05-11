@@ -13,5 +13,10 @@ public class Parrot extends Bird{
 	public String sing() {
 		return this.animal.sing();
 	}
+	
+	@Override
+	public String swim() {
+		return this.animal.swim();
+	}
 
 }

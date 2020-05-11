@@ -43,6 +43,37 @@ public class Solution {
 		myParrotWithDog.parrotLivesWith(new Dog());
 		myParrotWithDog.sing();
 		myParrotWithDog.swim();
+		Parrot myParrotWithRooster = new Parrot();
+		System.out.println("*********Parrot With Rooster*********");
+		myParrotWithRooster.parrotLivesWith(new Rooster());
+		myParrotWithRooster.sing();
+		myParrotWithRooster.swim();
+		Shark myShark = new Shark();
+		System.out.println("*********Shark*********");
+		myShark.walk();
+		myShark.fly();
+		myShark.sing();
+		myShark.swim();
+		myShark.colour();
+		myShark.eat();
+		myShark.makeJokes();
+		ClownFish myClownFish = new ClownFish();
+		System.out.println("*********ClownFish*********");
+		myClownFish.walk();
+		myClownFish.fly();
+		myClownFish.sing();
+		myClownFish.swim();
+		myClownFish.colour();
+		myClownFish.eat();
+		myClownFish.makeJokes();
+		Dolphin myDolphin = new Dolphin();
+		System.out.println("*********Dolphin*********");
+		myDolphin.isFish(new Shark());
+		myDolphin.walk();
+		myDolphin.fly();
+		myDolphin.sing();
+		myDolphin.swim();
+		
 	}
 
 }
