@@ -7,6 +7,13 @@ public class Duck extends Bird{
 		System.out.println(res);
 		return res;
 	}
+	
+	@Override
+	public String fly() {
+		String res = "I can not fly";
+		System.out.println(res);
+		return res;
+	}
 
 	@Override
 	public String swim() {

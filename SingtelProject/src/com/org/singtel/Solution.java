@@ -87,7 +87,47 @@ public class Solution {
 		myButterfly.fly();
 		myButterfly.sing();
 		myButterfly.swim();
-		
+		Animal[] allAnimals = new Animal[] {
+				new Bird(),
+				new Duck(),
+				new Chicken(),
+				new Rooster(),
+				new Parrot(),
+				new Shark(),
+				new Dog(),
+				new Butterfly(),
+				new Cat()
+		};
+		int flyCount = 0;
+		int walkCount = 0;
+		int singCount = 0;
+		int swimCount = 0;
+		for (Animal animal : allAnimals) {
+			if(animal.fly().equalsIgnoreCase("I can fly") || animal.fly().equalsIgnoreCase("I am flying"))
+			{
+				flyCount++;
+			}
+			else if(animal.walk().equalsIgnoreCase("I can walk") || animal.walk().equalsIgnoreCase("I am walking"))
+			{
+				walkCount++;
+			}
+			else if(animal.sing().equalsIgnoreCase("I can sing") || animal.sing().equalsIgnoreCase("I am singing"))
+			{
+				singCount++;
+			}
+			else if(animal.swim().equalsIgnoreCase("I can swim"))
+			{
+				swimCount++;
+			}
+			else
+			{
+				return;
+			}
+		}
+		System.out.println("Flying Animls : "+ flyCount);
+		System.out.println("Walking Animls : "+ walkCount);
+		System.out.println("Singing Animls : "+ singCount);
+		System.out.println("Swimming Animls : "+ swimCount);
 	}
 
 }
